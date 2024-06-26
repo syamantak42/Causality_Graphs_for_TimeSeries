@@ -5,6 +5,6 @@ This Repository contains the following files -
 Notebooks are for gathering data, generating synthetic data and analyzing results
 
 For more details refer to:
- On the convergence of the spectrum of finite order approximations of stationary time series
-SD Gupta, RR Mazumdar, P Glynn
-Journal of Multivariate Analysis 121, 1-21
+1. Inferring Causality in Networks of WSS Processes by pairwise estimation methods, Syamantak Datta Gupta, Ravi R Mazumdar, 2013 information theory and applications workshop (ITA)
+2. A frequency domain Lasso approach for Detecting Interdependence Relations among Time Series, Syamantak Datta Gupta, Ravi Mazumdar, Proceedings of International work-conference on Time Series (ITISE-2014)
+ 
