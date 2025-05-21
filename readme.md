@@ -1,12 +1,33 @@
-This Repository contains the following files - 
-1. sparse_models_V2.py - generates and saves causality graphs for a group of time series using  different models, including several that enforces sparsity constraints
-2. sparse_prediction_timeseries.py - trains and tests a one-step predictor using sparse (causal) models
-3. sparse_reg_models - models used to learn (sparse) causality graphs
+## Sparse Causality Models for Time Series
 
-   
-Notebooks are for gathering data, generating synthetic data and analyzing results
+This repository contains code and notebooks for learning and evaluating **sparse causality graphs** and **predictive models** on multivariate time series data. Several models with built-in sparsity constraints are included for inferring interpretable causal structure.
 
-For more details refer to:
-1. Inferring Causality in Networks of WSS Processes by pairwise estimation methods, Syamantak Datta Gupta, Ravi R Mazumdar, 2013 information theory and applications workshop (ITA)
-2. A frequency domain Lasso approach for Detecting Interdependence Relations among Time Series, Syamantak Datta Gupta, Ravi Mazumdar, Proceedings of International work-conference on Time Series (ITISE-2014)
- 
+### Contents
+
+* **`sparse_models_V2.py`**
+  Generates and saves causality graphs from multivariate time series using a variety of models, including sparse regression-based methods.
+
+* **`sparse_prediction_timeseries.py`**
+  Trains and evaluates one-step-ahead time series predictors using learned sparse (causal) graph structures.
+
+* **`sparse_reg_models/`**
+  Contains implementations of various regression models used for learning sparse causality graphs.
+
+* **Notebooks**
+  Jupyter notebooks for:
+
+  * Collecting and preprocessing real or synthetic time series data
+  * Running experiments
+  * Visualizing and analyzing results
+
+### References
+
+This implementation is based on the following works:
+
+* **Inferring Causality in Networks of WSS Processes by Pairwise Estimation Methods**
+  *Syamantak Datta Gupta, Ravi R Mazumdar*
+  ITA Workshop, 2013.
+
+* **A Frequency Domain Lasso Approach for Detecting Interdependence Relations among Time Series**
+  *Syamantak Datta Gupta, Ravi Mazumdar*
+  Proceedings of ITISE 2014.
