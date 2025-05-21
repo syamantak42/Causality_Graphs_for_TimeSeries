@@ -10,7 +10,7 @@ This repository contains code and notebooks for learning and evaluating **sparse
 * **`sparse_prediction_timeseries.py`**
   Trains and evaluates one-step-ahead time series predictors using learned sparse (causal) graph structures.
 
-* **`sparse_reg_models/`**
+* **`sparse_reg_models.py`**
   Contains implementations of various regression models used for learning sparse causality graphs.
 
 * **Notebooks**
